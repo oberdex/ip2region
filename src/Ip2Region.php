@@ -45,7 +45,7 @@ class Ip2Region
     */
     public function __construct()
     {
-		$ip2regionFile=__DIR__.'ip2region.db';
+		$ip2regionFile=__DIR__.'/ip2region.db';
         $this->dbFile = $ip2regionFile;
     }
 
