@@ -1,0 +1,19 @@
+{
+    "name": "jacky/ip2region",
+    "description": "ip查询库",
+    "type": "",
+    "authors": [
+        {
+            "name": "Jacky",
+            "email": "jacky@5amax.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+    },,
+	"autoload": {
+        "psr-4": {
+            "Jacky\\Ip2region\\": "src/"
+        }
+    },
+}
