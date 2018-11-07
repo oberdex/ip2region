@@ -2,20 +2,20 @@
     "name": "jacky/ip2region",
     "description": "ip查询库",
     "type": "lib",
-	"license": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jacky",
             "email": "jacky@5amax.com"
         }
     ],
-	"minimum-stability": "dev",
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0.0",
+        "php": ">=7.0.0"
     },
-	"autoload": {
+    "autoload": {
         "psr-4": {
-            "Jacky\\Ip2region\\": "src/",
+            "Jacky\\Ip2region\\": "src/"
         }
-    },
+    }
 }
